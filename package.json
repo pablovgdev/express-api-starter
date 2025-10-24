@@ -15,7 +15,8 @@
     "start": "node --env-file=.env src/index.js",
     "dev": "node --watch --env-file=.env src/index.js",
     "lint": "eslint --fix src",
-    "test": "vitest run"
+    "test": "vitest run",
+    "browser-tools": "npx @agentdeskai/browser-tools-server@latest"
   },
   "dependencies": {
     "cors": "^2.8.5",
